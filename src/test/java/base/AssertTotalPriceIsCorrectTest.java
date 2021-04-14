@@ -35,16 +35,5 @@ public class AssertTotalPriceIsCorrectTest extends Base{
         Assert.assertTrue(productTitle.contains(shoppingCart.getProductTitleFromCart()), "Title is not as expected ");
 
 
-
-
-
-
-
-
-
-
-
-        //List<WebElement> arrayList = getDriver().findElements(new By.ByClassName("rush-component"));
-        //arrayList.get(1).click();
     }
 }
